@@ -1,0 +1,5 @@
+user1@lau.edu,Password1,John Doe,123456789,Computer Science,Mathematics,Dr. Smith,Byblos,On Campus Dorms,123A,3.5
+user2@lau.edu,Password2,Jane Smith,987654321,Business Administration,Marketing,Prof. Johnson,Beirut,Off Campus Housing,456B,3.9
+user3@lau.edu,Password3,Mark Johnson,135790864,Electrical Engineering,Physics,Dr. Williams,Byblos,On Campus Dorms,789C,3.2
+user4@lau.edu,Password4,Amy Lee,246801357,Architecture,History,Prof. Garcia,Beirut,Off Campus Housing,159D,3.8
+user5@lau.edu,Password5,William Smith,468135792,Political Science,English,Dr. Davis,Byblos,On Campus Dorms,246E,3.6

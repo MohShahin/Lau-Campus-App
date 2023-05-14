@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC05F0B929FD82DB001405A6 /* users.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC05F0B829FD82DB001405A6 /* users.txt */; };
+		AC05F0BD29FEECDF001405A6 /* FeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05F0BC29FEECDF001405A6 /* FeaturesViewController.swift */; };
+		AC05F0C52A019AF2001405A6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05F0C42A019AF2001405A6 /* User.swift */; };
+		AC05F0C92A06FB95001405A6 /* user1@lau.edu_data.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC05F0C82A06FB95001405A6 /* user1@lau.edu_data.txt */; };
+		AC05F0CB2A082488001405A6 /* CalendarCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC05F0CA2A082488001405A6 /* CalendarCollectionViewController.swift */; };
+		AC21FE062A085F5A003F0EA9 /* BlackBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21FE052A085F5A003F0EA9 /* BlackBoard.swift */; };
+		AC75CB6F2A0C5F5D0045FF86 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75CB6E2A0C5F5D0045FF86 /* NotesViewController.swift */; };
+		AC75CB712A0C616F0045FF86 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75CB702A0C616F0045FF86 /* ImageViewController.swift */; };
+		AC7B0EF32A0B068E00CBC08C /* DatePickerControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B0EF22A0B068E00CBC08C /* DatePickerControllerDelegate.swift */; };
+		AC7B0EF52A0B06D000CBC08C /* CustomCalendarExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B0EF42A0B06D000CBC08C /* CustomCalendarExampleController.swift */; };
+		AC7B0EF82A0B071600CBC08C /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = AC7B0EF72A0B071600CBC08C /* CalendarKit */; };
+		ACB2AA7F29EC55E1005747C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2AA7E29EC55E1005747C5 /* AppDelegate.swift */; };
+		ACB2AA8129EC55E1005747C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2AA8029EC55E1005747C5 /* SceneDelegate.swift */; };
+		ACB2AA8329EC55E1005747C5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2AA8229EC55E1005747C5 /* LoginViewController.swift */; };
+		ACB2AA8629EC55E1005747C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB2AA8429EC55E1005747C5 /* Main.storyboard */; };
+		ACB2AA8829EC55E2005747C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB2AA8729EC55E2005747C5 /* Assets.xcassets */; };
+		ACB2AA8B29EC55E2005747C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB2AA8929EC55E2005747C5 /* LaunchScreen.storyboard */; };
+		ACB2AA9629EC55E3005747C5 /* Lau_Campus_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2AA9529EC55E3005747C5 /* Lau_Campus_AppTests.swift */; };
+		ACB2AAA029EC55E3005747C5 /* Lau_Campus_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2AA9F29EC55E3005747C5 /* Lau_Campus_AppUITests.swift */; };
+		ACB2AAA229EC55E3005747C5 /* Lau_Campus_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2AAA129EC55E3005747C5 /* Lau_Campus_AppUITestsLaunchTests.swift */; };
+		ACB2AAB129ECA20A005747C5 /* Mkmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2AAB029ECA20A005747C5 /* Mkmap.swift */; };
+		ACB2AAB729ECA736005747C5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2AAB629ECA736005747C5 /* Home.swift */; };
+		ACB2AAB929EDA435005747C5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2AAB829EDA435005747C5 /* Settings.swift */; };
+		ACF94ACC29FC680200E6674A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF94ACB29FC680200E6674A /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACB2AA9229EC55E3005747C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB2AA7329EC55E1005747C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB2AA7A29EC55E1005747C5;
+			remoteInfo = Lau_Campus_App;
+		};
+		ACB2AA9C29EC55E3005747C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB2AA7329EC55E1005747C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB2AA7A29EC55E1005747C5;
+			remoteInfo = Lau_Campus_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC05F0B829FD82DB001405A6 /* users.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = users.txt; sourceTree = "<group>"; };
+		AC05F0BC29FEECDF001405A6 /* FeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesViewController.swift; sourceTree = "<group>"; };
+		AC05F0C42A019AF2001405A6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AC05F0C82A06FB95001405A6 /* user1@lau.edu_data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "user1@lau.edu_data.txt"; sourceTree = "<group>"; };
+		AC05F0CA2A082488001405A6 /* CalendarCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewController.swift; sourceTree = "<group>"; };
+		AC21FE052A085F5A003F0EA9 /* BlackBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBoard.swift; sourceTree = "<group>"; };
+		AC75CB6E2A0C5F5D0045FF86 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		AC75CB702A0C616F0045FF86 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		AC7B0EF22A0B068E00CBC08C /* DatePickerControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerControllerDelegate.swift; sourceTree = "<group>"; };
+		AC7B0EF42A0B06D000CBC08C /* CustomCalendarExampleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendarExampleController.swift; sourceTree = "<group>"; };
+		ACB2AA7B29EC55E1005747C5 /* Lau_Campus_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lau_Campus_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB2AA7E29EC55E1005747C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACB2AA8029EC55E1005747C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACB2AA8229EC55E1005747C5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ACB2AA8529EC55E1005747C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACB2AA8729EC55E2005747C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACB2AA8A29EC55E2005747C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACB2AA8C29EC55E2005747C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB2AA9129EC55E3005747C5 /* Lau_Campus_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lau_Campus_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB2AA9529EC55E3005747C5 /* Lau_Campus_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lau_Campus_AppTests.swift; sourceTree = "<group>"; };
+		ACB2AA9B29EC55E3005747C5 /* Lau_Campus_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lau_Campus_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB2AA9F29EC55E3005747C5 /* Lau_Campus_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lau_Campus_AppUITests.swift; sourceTree = "<group>"; };
+		ACB2AAA129EC55E3005747C5 /* Lau_Campus_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lau_Campus_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACB2AAB029ECA20A005747C5 /* Mkmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mkmap.swift; sourceTree = "<group>"; };
+		ACB2AAB629ECA736005747C5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		ACB2AAB829EDA435005747C5 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		ACF94ACB29FC680200E6674A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACB2AA7829EC55E1005747C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B0EF82A0B071600CBC08C /* CalendarKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB2AA8E29EC55E3005747C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB2AA9829EC55E3005747C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC7B0EF92A0B130200CBC08C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				AC21FE052A085F5A003F0EA9 /* BlackBoard.swift */,
+				AC75CB6E2A0C5F5D0045FF86 /* NotesViewController.swift */,
+				ACB2AAB029ECA20A005747C5 /* Mkmap.swift */,
+				AC7B0EF42A0B06D000CBC08C /* CustomCalendarExampleController.swift */,
+				AC7B0EF22A0B068E00CBC08C /* DatePickerControllerDelegate.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		ACB2AA7229EC55E1005747C5 = {
+			isa = PBXGroup;
+			children = (
+				ACB2AA7D29EC55E1005747C5 /* Lau_Campus_App */,
+				ACB2AA9429EC55E3005747C5 /* Lau_Campus_AppTests */,
+				ACB2AA9E29EC55E3005747C5 /* Lau_Campus_AppUITests */,
+				ACB2AA7C29EC55E1005747C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACB2AA7C29EC55E1005747C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACB2AA7B29EC55E1005747C5 /* Lau_Campus_App.app */,
+				ACB2AA9129EC55E3005747C5 /* Lau_Campus_AppTests.xctest */,
+				ACB2AA9B29EC55E3005747C5 /* Lau_Campus_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACB2AA7D29EC55E1005747C5 /* Lau_Campus_App */ = {
+			isa = PBXGroup;
+			children = (
+				ACB2AA7E29EC55E1005747C5 /* AppDelegate.swift */,
+				ACB2AA8229EC55E1005747C5 /* LoginViewController.swift */,
+				ACB2AAB629ECA736005747C5 /* Home.swift */,
+				AC05F0BC29FEECDF001405A6 /* FeaturesViewController.swift */,
+				AC7B0EF92A0B130200CBC08C /* Features */,
+				ACB2AAB829EDA435005747C5 /* Settings.swift */,
+				ACF94ACB29FC680200E6674A /* DetailViewController.swift */,
+				ACB2AA8029EC55E1005747C5 /* SceneDelegate.swift */,
+				AC05F0B829FD82DB001405A6 /* users.txt */,
+				AC05F0C82A06FB95001405A6 /* user1@lau.edu_data.txt */,
+				AC05F0C42A019AF2001405A6 /* User.swift */,
+				ACB2AA8729EC55E2005747C5 /* Assets.xcassets */,
+				ACB2AA8429EC55E1005747C5 /* Main.storyboard */,
+				AC75CB702A0C616F0045FF86 /* ImageViewController.swift */,
+				ACB2AA8929EC55E2005747C5 /* LaunchScreen.storyboard */,
+				ACB2AA8C29EC55E2005747C5 /* Info.plist */,
+				AC05F0CA2A082488001405A6 /* CalendarCollectionViewController.swift */,
+			);
+			path = Lau_Campus_App;
+			sourceTree = "<group>";
+		};
+		ACB2AA9429EC55E3005747C5 /* Lau_Campus_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACB2AA9529EC55E3005747C5 /* Lau_Campus_AppTests.swift */,
+			);
+			path = Lau_Campus_AppTests;
+			sourceTree = "<group>";
+		};
+		ACB2AA9E29EC55E3005747C5 /* Lau_Campus_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACB2AA9F29EC55E3005747C5 /* Lau_Campus_AppUITests.swift */,
+				ACB2AAA129EC55E3005747C5 /* Lau_Campus_AppUITestsLaunchTests.swift */,
+			);
+			path = Lau_Campus_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACB2AA7A29EC55E1005747C5 /* Lau_Campus_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB2AAA529EC55E3005747C5 /* Build configuration list for PBXNativeTarget "Lau_Campus_App" */;
+			buildPhases = (
+				ACB2AA7729EC55E1005747C5 /* Sources */,
+				ACB2AA7829EC55E1005747C5 /* Frameworks */,
+				ACB2AA7929EC55E1005747C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lau_Campus_App;
+			packageProductDependencies = (
+				AC7B0EF72A0B071600CBC08C /* CalendarKit */,
+			);
+			productName = Lau_Campus_App;
+			productReference = ACB2AA7B29EC55E1005747C5 /* Lau_Campus_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACB2AA9029EC55E3005747C5 /* Lau_Campus_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB2AAA829EC55E3005747C5 /* Build configuration list for PBXNativeTarget "Lau_Campus_AppTests" */;
+			buildPhases = (
+				ACB2AA8D29EC55E3005747C5 /* Sources */,
+				ACB2AA8E29EC55E3005747C5 /* Frameworks */,
+				ACB2AA8F29EC55E3005747C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB2AA9329EC55E3005747C5 /* PBXTargetDependency */,
+			);
+			name = Lau_Campus_AppTests;
+			productName = Lau_Campus_AppTests;
+			productReference = ACB2AA9129EC55E3005747C5 /* Lau_Campus_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACB2AA9A29EC55E3005747C5 /* Lau_Campus_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB2AAAB29EC55E3005747C5 /* Build configuration list for PBXNativeTarget "Lau_Campus_AppUITests" */;
+			buildPhases = (
+				ACB2AA9729EC55E3005747C5 /* Sources */,
+				ACB2AA9829EC55E3005747C5 /* Frameworks */,
+				ACB2AA9929EC55E3005747C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB2AA9D29EC55E3005747C5 /* PBXTargetDependency */,
+			);
+			name = Lau_Campus_AppUITests;
+			productName = Lau_Campus_AppUITests;
+			productReference = ACB2AA9B29EC55E3005747C5 /* Lau_Campus_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACB2AA7329EC55E1005747C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ACB2AA7A29EC55E1005747C5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ACB2AA9029EC55E3005747C5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ACB2AA7A29EC55E1005747C5;
+					};
+					ACB2AA9A29EC55E3005747C5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ACB2AA7A29EC55E1005747C5;
+					};
+				};
+			};
+			buildConfigurationList = ACB2AA7629EC55E1005747C5 /* Build configuration list for PBXProject "Lau_Campus_App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACB2AA7229EC55E1005747C5;
+			packageReferences = (
+				AC7B0EF62A0B071600CBC08C /* XCRemoteSwiftPackageReference "CalendarKit" */,
+			);
+			productRefGroup = ACB2AA7C29EC55E1005747C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACB2AA7A29EC55E1005747C5 /* Lau_Campus_App */,
+				ACB2AA9029EC55E3005747C5 /* Lau_Campus_AppTests */,
+				ACB2AA9A29EC55E3005747C5 /* Lau_Campus_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACB2AA7929EC55E1005747C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB2AA8B29EC55E2005747C5 /* LaunchScreen.storyboard in Resources */,
+				AC05F0B929FD82DB001405A6 /* users.txt in Resources */,
+				ACB2AA8829EC55E2005747C5 /* Assets.xcassets in Resources */,
+				ACB2AA8629EC55E1005747C5 /* Main.storyboard in Resources */,
+				AC05F0C92A06FB95001405A6 /* user1@lau.edu_data.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB2AA8F29EC55E3005747C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB2AA9929EC55E3005747C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACB2AA7729EC55E1005747C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7B0EF32A0B068E00CBC08C /* DatePickerControllerDelegate.swift in Sources */,
+				ACB2AAB929EDA435005747C5 /* Settings.swift in Sources */,
+				ACB2AAB129ECA20A005747C5 /* Mkmap.swift in Sources */,
+				ACB2AA8329EC55E1005747C5 /* LoginViewController.swift in Sources */,
+				ACB2AAB729ECA736005747C5 /* Home.swift in Sources */,
+				AC7B0EF52A0B06D000CBC08C /* CustomCalendarExampleController.swift in Sources */,
+				ACB2AA7F29EC55E1005747C5 /* AppDelegate.swift in Sources */,
+				AC75CB712A0C616F0045FF86 /* ImageViewController.swift in Sources */,
+				AC05F0BD29FEECDF001405A6 /* FeaturesViewController.swift in Sources */,
+				ACB2AA8129EC55E1005747C5 /* SceneDelegate.swift in Sources */,
+				AC21FE062A085F5A003F0EA9 /* BlackBoard.swift in Sources */,
+				AC75CB6F2A0C5F5D0045FF86 /* NotesViewController.swift in Sources */,
+				ACF94ACC29FC680200E6674A /* DetailViewController.swift in Sources */,
+				AC05F0CB2A082488001405A6 /* CalendarCollectionViewController.swift in Sources */,
+				AC05F0C52A019AF2001405A6 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB2AA8D29EC55E3005747C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB2AA9629EC55E3005747C5 /* Lau_Campus_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB2AA9729EC55E3005747C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB2AAA229EC55E3005747C5 /* Lau_Campus_AppUITestsLaunchTests.swift in Sources */,
+				ACB2AAA029EC55E3005747C5 /* Lau_Campus_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACB2AA9329EC55E3005747C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB2AA7A29EC55E1005747C5 /* Lau_Campus_App */;
+			targetProxy = ACB2AA9229EC55E3005747C5 /* PBXContainerItemProxy */;
+		};
+		ACB2AA9D29EC55E3005747C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB2AA7A29EC55E1005747C5 /* Lau_Campus_App */;
+			targetProxy = ACB2AA9C29EC55E3005747C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACB2AA8429EC55E1005747C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB2AA8529EC55E1005747C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACB2AA8929EC55E2005747C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB2AA8A29EC55E2005747C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACB2AAA329EC55E3005747C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACB2AAA429EC55E3005747C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACB2AAA629EC55E3005747C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NPWAM39JL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lau_Campus_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LAU.Lau-Campus-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACB2AAA729EC55E3005747C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NPWAM39JL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lau_Campus_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LAU.Lau-Campus-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACB2AAA929EC55E3005747C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NPWAM39JL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LAU.Lau-Campus-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lau_Campus_App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lau_Campus_App";
+			};
+			name = Debug;
+		};
+		ACB2AAAA29EC55E3005747C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NPWAM39JL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LAU.Lau-Campus-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lau_Campus_App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lau_Campus_App";
+			};
+			name = Release;
+		};
+		ACB2AAAC29EC55E3005747C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NPWAM39JL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LAU.Lau-Campus-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lau_Campus_App;
+			};
+			name = Debug;
+		};
+		ACB2AAAD29EC55E3005747C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NPWAM39JL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LAU.Lau-Campus-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lau_Campus_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACB2AA7629EC55E1005747C5 /* Build configuration list for PBXProject "Lau_Campus_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB2AAA329EC55E3005747C5 /* Debug */,
+				ACB2AAA429EC55E3005747C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB2AAA529EC55E3005747C5 /* Build configuration list for PBXNativeTarget "Lau_Campus_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB2AAA629EC55E3005747C5 /* Debug */,
+				ACB2AAA729EC55E3005747C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB2AAA829EC55E3005747C5 /* Build configuration list for PBXNativeTarget "Lau_Campus_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB2AAA929EC55E3005747C5 /* Debug */,
+				ACB2AAAA29EC55E3005747C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB2AAAB29EC55E3005747C5 /* Build configuration list for PBXNativeTarget "Lau_Campus_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB2AAAC29EC55E3005747C5 /* Debug */,
+				ACB2AAAD29EC55E3005747C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC7B0EF62A0B071600CBC08C /* XCRemoteSwiftPackageReference "CalendarKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/richardtop/CalendarKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC7B0EF72A0B071600CBC08C /* CalendarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC7B0EF62A0B071600CBC08C /* XCRemoteSwiftPackageReference "CalendarKit" */;
+			productName = CalendarKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ACB2AA7329EC55E1005747C5 /* Project object */;
+}
